@@ -37,14 +37,12 @@ cd finance-tracker-students
 2. Set Up Virtual Environment
 python -m venv venv
 source venv/bin/activate   # On Windows, use venv\Scripts\activate
-3. Install Dependencies
-pip install -r requirements.txt
-4. Set Up the Database
+3. Set Up the Database
    Ensure the SQL database schema is created.
    Use a migration tool like Flask-Migrate or manually create tables.
-5. Run the Application
+4. Run the Application
    python app.py
-6. Access the App
+5. Access the App
    Open your browser and go to http://127.0.0.1:5000.
 (Apps preferred to run the code: VS Code, PyCharm)
 
